@@ -1,0 +1,15 @@
+.header-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header-control > a {
+  position: absolute;
+  left: 3.5rem;
+}
+.header__prev {
+  color: #fff;
+  font-size: 3.5rem;
+  cursor: pointer;
+}

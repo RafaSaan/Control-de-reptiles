@@ -1,0 +1,36 @@
+.cardReptil {
+  min-width: 26rem;
+  max-width: 38rem;
+  height: 20rem;
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  border-bottom: 0.2rem solid #6b5bbc;
+}
+.cardReptil > h3 {
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 1rem;
+}
+.cardReptil > p {
+  font-size: 2rem;
+  padding: 1rem 0 0 1.5rem;
+}
+.card__btn {
+  width: 24rem;
+  margin: 1.5rem auto 0 auto;
+  color: #000;
+  background: #f4f8f9;
+  border-radius: 1rem;
+  /* border-bottom: 0.1rem solid #3eb8da; */
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card__btn > svg {
+  font-size: 2.2rem;
+  margin-left: 0.5rem;
+}

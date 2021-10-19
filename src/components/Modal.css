@@ -1,0 +1,80 @@
+.modal {
+  width: 100%;
+  min-height: 99vh;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.is-open {
+  display: flex;
+}
+.modal__container {
+  background: #f4f8f9;
+  width: 35rem;
+  min-width: 29.5rem;
+  min-height: 40rem;
+  border-radius: 1rem;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.modal__container > h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: normal;
+}
+.modal__close {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2.5rem;
+  margin: 0.5rem 0.5rem 0 0;
+  background: none;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.modal-name {
+  width: 24rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem !important;
+}
+.modal__inputs {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-type {
+  width: 16rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem !important;
+}
+.css-16v0z44-MuiFormLabel-root-MuiInputLabel-root,
+.css-16v0z44-MuiFormLabel-root-MuiInputLabel-root,
+.css-16v0z44-MuiFormLabel-root-MuiInputLabel-root {
+  background: #fff !important;
+}
+.modal__submit {
+  width: 22rem;
+  width: 70%;
+  height: 6rem;
+  background: #fff;
+  font-size: 2.2rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  margin: 3rem 0 1rem 0;
+  align-self: center;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 24rem;
+  margin-bottom: 2rem !important;
+}

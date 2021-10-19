@@ -1,0 +1,9 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Alegreya Sans", sans-serif;
+}

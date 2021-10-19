@@ -1,0 +1,39 @@
+.control__item {
+  height: 5rem;
+  margin: 1.5rem auto;
+  background: #fff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.control__item__container {
+  width: 100%;
+  align-content: center;
+}
+.control__item__container > div {
+  color: rgb(0, 0, 0);
+  font-size: 1.75rem;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+.icon-edit {
+  font-size: 2rem;
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+.icon-delete {
+  font-size: 1.8rem;
+  color: #fe0000;
+  background: #fdeeea;
+  cursor: pointer;
+}
+.preview {
+  cursor: default;
+}
+.control__alimento {
+  min-width: 9rem;
+}
